@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM-Manuplulation Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+   <section class="container">
+    <div class="logo">
+        <img src="assets/pan.png" alt="pankaj-logo">
+    </div>
+    <h1 id="header" class="header">To-Do App</h1>
+
+    <form action="" class="new-task-container box">
+        <label for="new-task">Add new Task</label>
+        <input type="text" id="new-task"/>
+        <input type="submit" value="Add Task" id="addTask"/>
+    </form>
+
+    <div class="todo-list box">
+        <h2>Incomplete Tasks</h2>
+        <ul id="items">
+            <li class="item">
+                <input type="checkbox" />
+                <label >Task Name2</label>
+            </li>
+            <li class="item">
+                <input type="checkbox" />
+                <label >Task Name3</label>
+            </li>
+            <li class="item">
+                <input type="checkbox" />
+                <label >Task Name4</label>
+            </li>
+        </ul>
+    </div>
+    
+    <!-- Todo-list  -->
+
+    <div class="complete-list box">
+        <h2>Complete Tasks</h2>
+        <ul>
+            <li class="item">Task Name1<button class="delete">Delete</button></li>
+        </ul>
+    </div>
+    <!-- Complete List  -->
+   </section>
+   <!-- Complete container  -->
+
+    <script src="s.js"></script>
+    <script src="pan.js"></script>
+</body>
+</html>
